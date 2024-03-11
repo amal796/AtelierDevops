@@ -11,7 +11,7 @@ services:
 
   timesheet-backend:
     depends_on:
-      - mysql
+      - mysqldb
     build: src
     restart: on-failure
     ports:
